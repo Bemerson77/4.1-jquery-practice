@@ -4,12 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>4 1 jquery practice</title>
-    <link rel="styles/app.scss" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
 
-    <h1>Hello World!</h1>
+    <div class="container">
+      <ul class="accordion">
+        <li class="main-links">
+          <a href="#">My Files</a>
+          <ul class="collapseable my-files-content hide">
+            <li><a class="collapseable-links" href="#">Dropbox</a></li>
+            <li><a class="collapseable-links" href="#">Skydrive</a></li>
+            <li><a class="collapseable-links" href="#">FTP Server</a></li>
+            <li><a class="collapseable-links" href="#">Dropbox</a></li>
+            <li><a class="collapseable-links" href="#">Skydrive</a></li>
+          </ul>
+        </li>
+        <li class="main-links">
+          <a href="#">Mail</a>
+          <ul class="collapseable mail-content hide">
+            <li><a class="collapseable-links" href="#">Inbox</a></li>
+            <li><a class="collapseable-links" href="#">Outbox</a></li>
+            <li><a class="collapseable-links" href="#">Spam</a></li>
+            <li><a class="collapseable-links" href="#">Trash</a></li>
+            <li><a class="collapseable-links" href="#">G-Mail</a></li>
+          </ul>
+        </li>
+        <li class="main-links">
+          <a href="#">Cloud</a>
+          <ul class="collapseable cloud-content hide">
+            <li><a class="collapseable-links" href="#">Connect</a></li>
+            <li><a class="collapseable-links" href="#">Profiles</a></li>
+            <li><a class="collapseable-links" href="#">Options</a></li>
+            <li><a class="collapseable-links" href="#">Connect</a></li>
+            <li><a class="collapseable-links" href="#">Profiles</a></li>
+          </ul>
+        </li>
+        <li class="main-links">
+          <a href="#">Sign Out</a>
+        </li>
+      </ul>
+    </div>
 
-    <script src="scripts/index.js"></script>
+
+    <script src="js/bundle.js"></script>
   </body>
 </html>
