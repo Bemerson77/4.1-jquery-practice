@@ -9,4 +9,20 @@ $('.main-links').on('click', function(e){
   }else{
     $(this).children('.collapseable').toggleClass('hide');
   }
+  // changes background-color when clicked
+    $(this).toggleClass('main-bg-color');
+
+
 });
+
+
+
+
+// hover function for main links.
+$('.main-links, .anchor').hover(
+  function() {
+    $( this ).addClass( "hover" );
+  }, function() {
+    $( this ).removeClass( "hover" );
+  }
+);

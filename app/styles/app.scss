@@ -21,21 +21,21 @@ img {
   margin-top: 200px;
   width: 350px;
   background-color: rgba(68, 68, 69, 1);
-  height: 270px;
+  height: 274px;
   padding: 0;
+  border: 2px solid rgba(68, 68, 69, 1);
 
 
 }
 
 .accordion {
-  background-color: rgba(68, 68, 69, 1);
+  background-color: rgba(100, 102, 107, 1);
   text-decoration: none;
   list-style: none;
   padding: 0;
 }
 
 .accordion li {
-  background-color: rgba(100, 102, 107, 1);
   font-size: 20px;
   border: 1px solid rgba(40, 44, 53, 1);
   cursor: pointer;
@@ -71,4 +71,14 @@ img {
 
 .hide {
   display: none;
+}
+
+.hover {
+  background-color: rgba(117, 155, 20, 1);
+  color: rgba(100, 102, 107, 1);
+
+}
+
+.main-bg-color {
+  background-color: rgba(117, 155, 20, 1);
 }
